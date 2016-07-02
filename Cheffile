@@ -1,0 +1,10 @@
+# see https://gorails.com/guides/using-vagrant-for-rails-development for details
+site 'http://community.opscode.com/api/v1'
+
+cookbook 'apt'
+cookbook 'build-essential'
+cookbook 'mysql'
+cookbook 'nodejs', git: 'https://github.com/redguide/nodejs'
+cookbook 'rbenv'
+cookbook 'vim'
+cookbook 'devday', path: 'vagrant-cookbooks/devday'
