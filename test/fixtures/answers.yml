@@ -1,13 +1,13 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  id: 1
-  subject: MyString
+  question_id: 1
   body: MyText
   author: MyString
+  rating: 0
 
 two:
-  id: 2
-  subject: MyString
+  question_id: 2
   body: MyText
   author: MyString
+  rating: 0
