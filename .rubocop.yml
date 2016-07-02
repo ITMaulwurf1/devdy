@@ -26,4 +26,7 @@ Style/GuardClause:
 Style/FrozenStringLiteralComment:
   Enabled: false
 
+Style/Documentation:
+  Enabled: false
+
 inherit_from: .rubocop_todo.yml
