@@ -1,0 +1,29 @@
+AllCops:
+  Include:
+    - '**/Rakefile'
+    - '**/Gemfile'
+    - '**/Guardfile'
+    - '**/config.ru'
+    - '**/*.rake'
+    - '**/*.cap'
+  Exclude:
+    - 'cookbooks/**/*'
+    - 'tmp/librarian/**/*'
+    - 'vendor/bundle/**/*'
+
+Rails:
+  Enabled: true
+
+AndOr:
+  Enabled: false
+
+Not:
+  Enabled: false
+
+Style/GuardClause:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+inherit_from: .rubocop_todo.yml
