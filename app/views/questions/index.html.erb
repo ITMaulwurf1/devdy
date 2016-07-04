@@ -8,6 +8,7 @@
       <th>Subject</th>
       <th>Body</th>
       <th>Author</th>
+      <th>Answers</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -18,6 +19,7 @@
         <td><%= question.subject %></td>
         <td><%= question.body %></td>
         <td><%= question.author %></td>
+        <td><%= question.answers.size %></td>
         <td><%= link_to 'Show', question %></td>
         <td><%= link_to 'Edit', edit_question_path(question) %></td>
         <td><%= link_to 'Destroy', question, method: :delete, data: { confirm: 'Are you sure?' } %></td>
